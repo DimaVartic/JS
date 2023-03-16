@@ -47,12 +47,12 @@
             if ( viewportWidth >= BREAKPOINT ) {
             //alert("Desktop")
             heading.className = "title-large"
-            } else {
+            } else if (viewportWidth < BREAKPOINT ) {
             //alert("Smartphone")
             heading.className = "title-medium"
             }
             
-            if ( viewportWidth < BREAKPOINT && viewportWidth <BREAKPOINT_2 ) {
+            else if ( viewportWidth < BREAKPOINT && viewportWidth <BREAKPOINT_2 ) {
             heading.className = "title-small"
             }
            
