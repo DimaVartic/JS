@@ -6,8 +6,8 @@
     <title>JS example of adaptive page </title>
 </head>
 <body 
-      onresize="adapt"
-      onload="adapt"
+      onresize="adapt()"
+      onload="adapt()"
       >
     
     <h1 id="heading"> JS example of adaptive page </h1>
@@ -47,7 +47,7 @@
             if ( viewportWidth >= BREAKPOINT ) {
             //alert("Desktop")
             heading.className = "title-large"
-            } else if (viewportWidth < BREAKPOINT ) {
+            } else if ( viewportWidth < BREAKPOINT ) {
             //alert("Smartphone")
             heading.className = "title-medium"
             }
