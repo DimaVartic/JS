@@ -15,16 +15,20 @@
     <style>
         .title-large {
             padding: 2em;
+            color: blue;
         }
 
         .title-medium {
-            padding: 0.7em;
+            padding: 1em;
             text-align: center;
+            color: red;
+
         }
 
         .title-small{
-            padding: 0.25em;
+            padding: 0.5em;
             text-align: center;
+            color: green;
         }
         
     </style>
@@ -48,11 +52,10 @@
             //alert("Desktop")
             heading.className = "title-large"
             } else if ( viewportWidth < BREAKPOINT ) {
-            //alert("Smartphone")
+            //alert("Tablet")
             heading.className = "title-medium"
-            }
-            
-            else if ( viewportWidth < BREAKPOINT && viewportWidth <BREAKPOINT_2 ) {
+            } else if ( viewportWidth < BREAKPOINT && viewportWidth < BREAKPOINT_2 ) {
+             //alert("Smartphone")   
             heading.className = "title-small"
             }
            
