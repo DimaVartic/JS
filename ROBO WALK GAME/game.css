@@ -1,0 +1,29 @@
+
+body{
+    background-color: #333;
+}
+
+#gameMap {
+    border: 3px solid white;
+    height: 792px;
+    margin-bottom: 5px;
+}
+
+#gameMap .robot {
+    width: 72px;
+    height: 72px;
+    background-image: url(Robot-icon.png);
+    display: inline-block;
+}
+
+#gameMap .wrench {
+    width: 72px;
+    height: 72px;
+    background-image: url(62968-wrench-icon.png);
+    display: inline-block;
+}
+
+
+.controls {
+    text-align: center;
+}
