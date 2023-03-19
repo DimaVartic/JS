@@ -16,48 +16,47 @@
     <div class="controls">
 
         <button onclick="
-            if(robotDown * STEP < innerHeight * 0)
-                {
+
+            if(robotDown * STEP > innerHeight * 0)
+            {
                 robotDown--
             }
-            render () 
+            render()
                 "
             >
             ▲</button>
 
-      
-      
-      
+
+
+
       <button onclick="
            if(robotLeft * STEP > innerWidth * 0) {
                 robotLeft--
            }
            render()
             ">
-            
+
             ◄</button>
 
-       
+
        <button onclick="
            if(robotLeft * STEP < innerWidth - STEP * 3) {
                 robotLeft++
            }
-
-            //*console.log(robotLeft)
             render()
             " >►
         </button>
 
-       
-       
-       
-       
+
+
+
+
        <button onclick="
-        if(robotDown * STEP < innerHeight - STEP * 11)
+        if(robotDown * STEP < 792 - (STEP * 2))
             {
             robotDown++
         }
-        render () 
+        render()
             ">
             ▼</button>
 
