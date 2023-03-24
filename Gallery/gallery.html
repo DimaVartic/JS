@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | LOOPS | WHILE | GALLERY</title>
+
+    <style>
+        img {
+            width: 150px;
+        }
+
+    </style>
+
+</head>
+<body>
+     
+    <div id="container">
+        <!--
+            <img src="images/1.jpg"
+        -->
+
+    </div>
+
+    <script>
+        // 1. start conditions
+        let i = 9
+
+        while (i > 0) {  // 2. end conditions
+            // console.log(i)
+            container.innerHTML += `<img src="images/${i}.jpg">`
+            if (i == 7 || i == 4 ) {
+                container.innerHTML += `<br>`
+            }
+
+            i-- // 3. step conditions
+        }
+
+        //HW1: 
+        //   refector the cod so it counts down
+
+        //HW2:  try to draw the diagram for this example
+
+        //HW3: 
+        //    add required code to make the gallery 3x3
+
+    </script>
+
+</body>
+</html>
