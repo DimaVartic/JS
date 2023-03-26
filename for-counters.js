@@ -22,3 +22,18 @@ for (let n=9; n>1; n--) {
 
            
         }
+
+
+let table = `<table border "1"> <tr>`
+
+for (let td = 1; td <=9; td++) {
+    table += `<td>${td}</td>`
+    if(td== 3 || td == 6) {
+        table += `</tr><tr>`
+    }
+}
+
+//HW1: color the main diagnoal 
+// <td style="" .... >
+                
+                
