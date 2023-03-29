@@ -41,5 +41,21 @@ for (let td = 1; td <=9; td++) {
 
 //HW1: color the main diagnoal 
 // <td style="" .... >
-                
+   let table = `<table border="1">
+                        <tr>`
+            for (let td = 1; td <= 9; td++) {
+            if (td == 1 || td == 5 || td == 9) {
+                table += `<td style="background-color:orangered"`
+            }
+            table += `<td>${td}</td>`
+            if (td == 3 || td == 6) {
+                table += `</tr><tr>`
+            }
+        }
+        
+        table += `</tr>
+                    </table>`
+
+        container.innerHTML = table
+        console.log(table)
                 
