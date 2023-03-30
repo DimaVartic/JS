@@ -5,13 +5,14 @@
 </head>
 <body>
 
-    <div id="conatiner">
+    <div id="container">
 
         <ul>
             <li></li>
             <li></li>
             <li></li>
         </ul>
+        
 
     </div>
 
@@ -31,21 +32,21 @@
                 
                 else if (i==2) {
                         sub_ul= `<ul>`
-                            for (let j = 2; j<=5; j++) {
+                            for (let j = 1; j<=5; j++) {
                                 sub_ul += `<li> Subitem ${j} </li>`
                             }
                         sub_ul += `</ul>`
                     }
                     else if (i==3) {
                         sub_ul= `<ul>`
-                            for (let j=3; j<=7; j++) {
+                            for (let j=1; j<=7; j++) {
                                 sub_ul += `<li> Subitem ${j} </li>`
                             }
                         sub_ul += `</ul>`
                     }
                 
 
-                    ul += `<li>Item ${i}${sub_ul} </li>`
+                    ul += `<li> Item ${i}${sub_ul} </li>`
 
                     
             }
