@@ -13,14 +13,14 @@ body {
     float: left;
 }
 #map .pac {
-    background: url(pac.png);
+    background: url(images/pac.png);
 }
 #map .coin {
-    background: url(coin.png);
+    background: url(images/coin.png);
 }
 #map .bomb {
-    background: url(bomb.png);
+    background: url(images/bomb.png);
 }
 #map .heart {
-    background: url(heart.png);
+    background: url(images/heart.png);
 }
